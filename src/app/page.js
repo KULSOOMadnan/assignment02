@@ -25,12 +25,21 @@ export default function Home() {
             <p className="text-lg md:text-2xl mt-4">
               Making your special day unforgettable
             </p>
+            <div className='flex justify-center gap-5 mt-5'>
             <Link
               href="/contact"
               className="mt-8 bg-emerald-900 text-white px-6 py-2 rounded-lg font-bold"
             >
               Contact Us
             </Link>
+            <Link
+              href="/contact"
+              className="mt-8 bg-emerald-900 text-white px-6 py-2 rounded-lg font-bold"
+            >
+              Our Services
+            </Link>
+
+            </div>
           </div>
         </div>
       </main>

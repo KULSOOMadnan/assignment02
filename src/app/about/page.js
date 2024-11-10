@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../@components/Navbar";
 import Footer from "../@components/Footer";
 import Image from "next/image";
+import Link from "next/link";
 function about() {
   return (
     <>
@@ -30,6 +31,12 @@ function about() {
             that reflect your style. Our team is dedicated to making your event
             flawless, so you can enjoy every moment.
           </p>
+          <Link
+              href="/services"
+              className="mt-8 bg-emerald-900 text-white px-6 py-2 rounded-lg font-bold"
+            >
+              Our Services
+            </Link>
         </div>
       </div>
 
