@@ -12,8 +12,8 @@ function Contact() {
     message: '',
   });
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
+  const handleSubmit = () => {
+    
     console.log(formData.name);
     alert('Message sent!');
     // You can add form handling logic here

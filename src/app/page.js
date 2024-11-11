@@ -21,6 +21,7 @@ export default function Home() {
           <div className="relative z-10 flex flex-col items-center justify-center h-full text-emerald-900 text-center">
             <h1 className="text-4xl md:text-6xl font-bold">
               Welcome to Our Wedding Services
+              
             </h1>
             <p className="text-lg md:text-2xl mt-4">
               Making your special day unforgettable

@@ -46,7 +46,7 @@ export default function Services() {
   return (
     <>
       <Navbar />
-      <div className="relative h-screen font-satisfy">
+      <div className="relative h-max font-satisfy">
         {/* Background Image */}
         <Image
           src="https://img.freepik.com/free-vector/hand-painted-watercolor-floral-wallpaper_52683-67104.jpg?t=st=1727013454~exp=1727017054~hmac=a63522268a5b83674f1117117146b52c156ae774083949d07d331c0156c40d79&w=900"
@@ -57,8 +57,8 @@ export default function Services() {
         
         {/* Main Content */}
         <div className="relative z-10 flex flex-col items-center justify-center h-full text-rose-700 text-center">
-          <h1 className="text-5xl md:text-8xl font-bold text-emerald-900">Our Services</h1>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
+          <h1 className="text-5xl md:text-8xl mt-5 font-bold text-emerald-900">Our Services</h1>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8 mb-10">
             
             {/* Existing Services */}
             <div className="bg-white p-6 shadow-lg rounded-lg">
